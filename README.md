@@ -13,7 +13,7 @@ The login & sign up pages:
     ![alt text](/public/assets/image-5.png)
     ![alt text](/public/assets/image-8.png)
 
-The dashboard page displayed after user logs in and allows user to add a new post, view an existing post, delete a post and comment on a post:
+The dashboard page displayed after user logs in and allows user to add a new post, view an existing post, edit a post, delete a post and comment on a post:
     ![alt text](/public/assets/image-1.png)
 
 The Post details page with option to add comment:

@@ -4,14 +4,17 @@
     <div class="container p-2">
         <div class="row justify-content-around">            
             {{#each posts as |post| }}
-            <div class="card mb-2" style="width: 50rem;">
-                <div class="card-body p-0">
-                    <h5 class="py-2"><a href="/api/posts/view/{{post.id}}" class="nav-link p-0" type="button">{{post.title}}</a></h5>
-                    <div>
+            <div class="card mb-2 p-0" style="width: 50rem;">
+                <div class="card-header p-2">
+                    <h5 class="card-title">
+                        <a href="/api/posts/view/{{post.id}}" class="nav-link p-0" type="button">{{post.title}}</a>
+                    </h5>
+                </div>
+                <div class="card-body justify-content p-0">                    
+                    <div class="text-end">
                         <button type="button" data-id="{{post.id}}" class="btn btn-link delete-post">Delete</button>
-                        <p class="card-text text-end mb-2"><small class="text-muted">{{format_date post.date_created}}</small></p>
-                    </div>
-                    
+                        <p class="card-text px-2"><small class="text-muted">{{format_date post.date_created}}</small></p>
+                    </div>                    
                 </div>
             </div>                
             {{/each}}

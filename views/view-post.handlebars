@@ -1,8 +1,10 @@
 <div class="container p-2">
     <div class="row align-items-center">
-        <div class="card mb-2">
-             <div class="card-header mt-2 p-2">
-                <h5 id="{{post.id}}" class="card-title">{{postData.title}}</h5>
+        <div class="card mb-2 p-0">
+            <div class="card-header p-2">
+                <h5 class="card-title">
+                    <a href="/api/posts/edit/{{postData.id}}" class="nav-link p-0" type="button">{{postData.title}}</a>
+                </h5>
             </div>
             <div class="card-body">
                 <p class="card-text mb-0">{{postData.content}}</p>                

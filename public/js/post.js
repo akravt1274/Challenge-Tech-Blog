@@ -45,7 +45,7 @@ const updatePostHandler = async (event) => {
         
         if (response.ok) {
             // If successful, redirect the browser to the dashboard page
-            document.location.replace('/dashboard');
+            document.location.replace(`/api/posts/view/${id}`);
         } else {
             $('#error-msg').text('Please try again.');
         }       
