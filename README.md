@@ -7,17 +7,18 @@ The app follows the MVC paradigm in its architectural structure, using Handlebar
 
 ## Screenshots
 The landing page:
-    ![alt text](/public/assets/image-3.png)
+    ![alt text](/public/assets/image.png)
 
 The login & sign up pages:
-    ![alt text](/public/assets/image-5.png)
-    ![alt text](/public/assets/image-8.png)
+    ![alt text](/public/assets/image-1.png)
+    ![alt text](/public/assets/image-2.png)
 
 The dashboard page displayed after user logs in and allows user to add a new post, view an existing post, edit a post, delete a post and comment on a post:
-    ![alt text](/public/assets/image-1.png)
-
-The Post details page with option to add comment:
+    ![alt text](/public/assets/image-3.png)
     ![alt text](/public/assets/image-4.png)
+    ![alt text](/public/assets/image-5.png)
+    ![alt text](/public/assets/image-6.png)
+    ![alt text](/public/assets/image-7.png)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -34,7 +35,7 @@ Use the terminal to run the commands:
 Navigate to the project folder in the terminal. Invoke the application by typing "node server.js" in the terminal's command line. 
 
 ## Review
-The URL of the functional, deployed application:
+The URL of the functional, deployed application: https://challenge-tech-blog.onrender.com
 
 The URL of the GitHub repository: https://github.com/akravt1274/Challenge-Tech-Blog
 
