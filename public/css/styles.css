@@ -1,0 +1,12 @@
+body {
+    background-color: #eeedec;
+    background-image: linear-gradient(to bottom, #d4e2f4, #bed7f7, #a9cbfa, #93bffd, #7cb3ff);
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+div img {
+   display: block;
+   width: 100%;
+   height: 330px;
+}

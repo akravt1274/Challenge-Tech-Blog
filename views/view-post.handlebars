@@ -1,0 +1,25 @@
+<div class="container p-2">
+    <div class="row align-items-center">
+        <div class="card mb-2">
+             <div class="card-header mt-2 p-2">
+                <h5 id="{{post.id}}" class="card-title">{{postData.title}}</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text mb-0">{{postData.content}}</p>                
+                <p class="card-text mb-0 text-end"><small class="text-muted">{{format_date postData.date_created}}</small></p>              
+                <a href="/api/posts/{{postData.id}}/comment" class="mb-2" type="button">Add Comment</a>
+                {{#if postData.comments.length}}
+                {{#each postData.comments as |comment| }}
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-0 text-muted"><strong>@{{comment.username}}  </strong><span><small class="text-muted">{{format_date
+                                comment.date_created}}</small></span></h6>
+                        <p class="card-text px-4 fw-lighter lh-sm fs-6">{{comment.content}}</p>
+                    </div>
+                </div>
+                {{/each}}
+                {{/if}}
+            </div>               
+        </div>             
+    </div>
+</div>
